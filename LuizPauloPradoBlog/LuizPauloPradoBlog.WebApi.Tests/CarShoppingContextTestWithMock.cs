@@ -9,7 +9,7 @@ using LuizPauloPradoBlog.Repository.Context;
 using LuizPauloPradoBlog.Repository;
 using LuizPauloPradoBlog.Repository.Interface;
 
-namespace LuizPauloPradoBlog.WebApi.Tests
+namespace LuizPauloPradoBlog.Tests
 {
     [TestClass]
     public class CarShoppingContextTestWithMock
@@ -42,7 +42,7 @@ namespace LuizPauloPradoBlog.WebApi.Tests
         [TestMethod]
         public void ShoudCreateNewCar()
         {
-            var sampleCar = new Car() { Id = 3, Name = "Civiv", Model = "Honda Civic SE", YearOfManufacture = 2016 };
+            var sampleCar = new Car() { Id = 3, Name = "Civic", Model = "Honda Civic SE", YearOfManufacture = 2016 };
             _repository.Add(sampleCar);
 
             _dbSet.Verify(m => m.Add(It.IsAny<Car>()), Times.Once());

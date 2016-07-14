@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizPauloPradoBlog.WebApi.Tests", "LuizPauloPradoBlog.WebApi.Tests\LuizPauloPradoBlog.WebApi.Tests.csproj", "{9DDA423D-C222-406A-9951-2463FC84FE33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizPauloPradoBlog.Tests", "LuizPauloPradoBlog.WebApi.Tests\LuizPauloPradoBlog.Tests.csproj", "{9DDA423D-C222-406A-9951-2463FC84FE33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizPauloPradoBlog.Repository", "LuizPauloPradoBlog.Repository\LuizPauloPradoBlog.Repository.csproj", "{CEBE7487-E668-4D29-BC0D-74FC30185A98}"
 EndProject

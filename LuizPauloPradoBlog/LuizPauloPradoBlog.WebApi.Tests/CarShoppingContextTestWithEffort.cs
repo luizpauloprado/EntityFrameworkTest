@@ -7,7 +7,7 @@ using LuizPauloPradoBlog.Repository;
 using LuizPauloPradoBlog.Repository.Model;
 using System.Linq;
 
-namespace LuizPauloPradoBlog.WebApi.Tests
+namespace LuizPauloPradoBlog.Tests
 {
     [TestClass]
     public class CarShoppingContextTestWithEffort
